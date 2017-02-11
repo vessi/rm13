@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      database: webresource_development
+      hosts:
+        - localhost:27017
+      options:
+        max_pool_size: 5
+  options:
+    raise_not_found_error: false
+    use_utc: true
+    log_level: :info
